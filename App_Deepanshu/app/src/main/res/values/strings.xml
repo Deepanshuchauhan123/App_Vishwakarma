@@ -52,15 +52,13 @@
         <item>कक्षा XII</item>
     </string-array>
     <string-array name="spec">
-        <item>Select Specilization</item>
-        <item>Heart</item>
-        <item>Eyes </item>
-        <item>Skin </item>
-        <item>Surgen </item>
-        <item>Emergency doctor </item>
-        <item>cardio </item>
-        <item>Therepist </item>
-
+        <item>विशिष्टता का चयन करें</item>
+        <item>दिल</item>
+        <item>आंखें </item>
+        <item>त्वचा </item>
+        <item>शल्य चिकित्सक </item>
+        <item>आपातकालीन डॉक्टर </item>
+        <item>कार्डियो </item>
     </string-array>
     <string-array name="bloodgroup">
         <item>रक्त समूह </item>
@@ -99,6 +97,8 @@
         <item>VIII</item>
         <item>IX</item>
         <item>X</item>
+        <item>XI</item>
+        <item>XII</item>
     </string-array>
     <string-array name="quiz1">
         <item>विषय का चयन करें</item>
@@ -108,6 +108,13 @@
         <item>अंग्रेज़ी </item>
         <item>हिंदी </item>
         <item>जीवविज्ञान </item>
+    </string-array>
+
+    <string-array name="admin">
+        <item>अधिकारी चुनें</item>
+        <item>मुख्य स्वास्थ्य चिकित्सा अधिकारी</item>
+        <item>जिला शिक्षाधिकारी </item>
+
     </string-array>
 
 </resources>

@@ -43,5 +43,15 @@ public class admin_chart extends AppCompatActivity {
                 startActivity(i);
             }
         });
+
+        deo = (Button) findViewById(R.id.sarpanch);
+        deo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v)
+            {
+                Intent i = new Intent(admin_chart.this, Sarpanch_login.class);
+                startActivity(i);
+            }
+        });
     }
 }

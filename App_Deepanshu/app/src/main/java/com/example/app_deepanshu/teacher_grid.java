@@ -50,7 +50,7 @@ private Button assigment;
             @Override
             public void onClick(View v)
             {
-                Intent i = new Intent(teacher_grid.this, deo_update.class);
+                Intent i = new Intent(teacher_grid.this, Report_teacher.class);
                 startActivity(i);
             }
         });
