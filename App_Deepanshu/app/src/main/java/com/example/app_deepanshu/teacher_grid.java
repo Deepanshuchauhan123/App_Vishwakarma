@@ -17,12 +17,14 @@ private Button assigment;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_teacher_grid);
-        assigment = (Button) findViewById(R.id.assignment);
+
+
+        assigment = (Button) findViewById(R.id.teacher_self);
         assigment.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v)
             {
-                Intent i = new Intent(teacher_grid.this, teacher_assignment.class);
+                Intent i = new Intent(teacher_grid.this, teacher_self_grid.class);
                 startActivity(i);
             }
         });

@@ -35,10 +35,8 @@ public class doctor_reg extends AppCompatActivity implements  AdapterView.OnItem
 
         // Toast.makeText(parent.getContext(), "\n" +"वर्ग : " + item, Toast.LENGTH_SHORT).show();
     }
-
     @Override
     public void onNothingSelected(AdapterView<?> parent) {
-
     }
 
 }

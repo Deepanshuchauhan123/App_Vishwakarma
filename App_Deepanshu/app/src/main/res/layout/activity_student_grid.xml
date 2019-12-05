@@ -151,7 +151,7 @@
                     app:cardElevation="8dp">
 
                     <Button
-                        android:id="@+id/btn3"
+                        android:id="@+id/btn"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@android:color/transparent" />
@@ -192,7 +192,7 @@
                     app:cardElevation="8dp">
 
                     <Button
-                        android:id="@+id/btn4"
+                        android:id="@+id/btn6"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@android:color/transparent" />
@@ -235,7 +235,7 @@
                     app:cardElevation="8dp">
 
                     <Button
-                        android:id="@+id/btn3"
+                        android:id="@+id/btn67"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@android:color/transparent" />
@@ -276,7 +276,7 @@
                     app:cardElevation="8dp">
 
                     <Button
-                        android:id="@+id/btn4"
+                        android:id="@+id/btn46"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@android:color/transparent" />
@@ -318,7 +318,7 @@
                     app:cardElevation="8dp">
 
                     <Button
-                        android:id="@+id/btn3"
+                        android:id="@+id/btn38"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@android:color/transparent" />

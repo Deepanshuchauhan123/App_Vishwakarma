@@ -29,11 +29,12 @@
     <string name="education">शिक्षा और विकास</string>
     <string name="head">स्वास्थ्य और शिक्षा- सारथी</string>
     <string-array name="stream">
-        <item>कोई विषय नहीं </item>
+        <item>संकाय चुने </item>
         <item>गणित </item>
         <item>कला </item>
         <item>जीवविज्ञान </item>
         <item>वाणिज्य </item>
+        <item>कोई नहीं</item>
     </string-array>
 
     <string-array name="classes">
@@ -90,7 +91,7 @@
 
     <string name="appname">Spinner Example</string>
     <string-array name="Class_Names">
-        <item>Select Class</item>
+        <item>कक्षा चुने </item>
         <item>V</item>
         <item>VI</item>
         <item>VII</item>
@@ -116,5 +117,14 @@
         <item>जिला शिक्षाधिकारी </item>
 
     </string-array>
+
+    <string-array name="planets_array">
+        <item>स्तर चुने </item>
+        <item>प्राथमिक</item>
+        <item>उच्च प्राथमिक</item>
+        <item>माध्यमिक </item>
+        <item>उच्च माध्यमिक </item>
+    </string-array>
+
 
 </resources>

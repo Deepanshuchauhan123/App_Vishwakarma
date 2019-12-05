@@ -4,6 +4,7 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
 
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -11,7 +12,10 @@
         android:roundIcon="@mipmap/ic_launcher_main_main"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".teacher_report_update"></activity>
+        <activity android:name=".teacher_self_grid"></activity>
+        <activity android:name=".self_teachers_support" />
+        <activity android:name=".Teacher_self_Detail" />
+        <activity android:name=".teacher_report_update" />
         <activity android:name=".Report_teacher" />
         <activity android:name=".Sarpanch_reg" />
         <activity android:name=".Sarpanch_login" />

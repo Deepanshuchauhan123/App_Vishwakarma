@@ -66,7 +66,7 @@
                 app:cardElevation="8dp">
 
                 <Button
-                    android:id="@+id/assignment"
+                    android:id="@+id/teacher_self"
                     android:layout_width="match_parent"
                     android:layout_height="141dp"
                     android:background="@android:color/transparent" />
@@ -87,7 +87,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
-                        android:text="असाइनमेंट पोर्टेल  "
+                        android:text="स्वः शिक्षण विवरण "
                         android:textAlignment="center"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -130,7 +130,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text=" अपलोड पोर्टल"
+                        android:text="विद्यार्थियों  की जानकारी डाले "
                         android:textAlignment="center"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -150,7 +150,7 @@
                 app:cardElevation="8dp">
 
                 <Button
-                    android:id="@+id/btn3"
+                    android:id="@+id/btn5"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@android:color/transparent" />
@@ -171,7 +171,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="छात्र जानकारी डाले  "
+                        android:text="विद्यार्थी उपस्तिथि पोर्टल  "
                         android:textAlignment="center"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -212,7 +212,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="रिपोर्ट डाले "
+                        android:text="गृहकार्य एवं क्विज पोर्टल "
                         android:textAlignment="center"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -222,6 +222,92 @@
 
 
 
+
+
+
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <Button
+                    android:id="@+id/btn3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/ic_account_circle_black_24dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="विद्यार्थियों  की रिपोर्ट डाले    "
+                        android:textAlignment="center"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <Button
+                    android:id="@+id/btn6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/ic_account_circle_black_24dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="विद्यार्थियों  की रिपोर्ट देखे   "
+                        android:textAlignment="center"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
 
         </GridLayout>
     </LinearLayout>

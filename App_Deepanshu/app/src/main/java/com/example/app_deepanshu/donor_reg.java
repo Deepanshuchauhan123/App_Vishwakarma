@@ -16,11 +16,8 @@ public class donor_reg extends AppCompatActivity implements  AdapterView.OnItemS
         setContentView(R.layout.activity_donor_reg);
 
         spinner = findViewById(R.id.spinner_group);
-
         ArrayAdapter<CharSequence> adapter1= ArrayAdapter.createFromResource(donor_reg.this, R.array.bloodgroup, android.R.layout.simple_spinner_item);
-
         adapter1.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-
         spinner.setAdapter(adapter1);
         spinner.setOnItemSelectedListener(donor_reg.this);
     }
