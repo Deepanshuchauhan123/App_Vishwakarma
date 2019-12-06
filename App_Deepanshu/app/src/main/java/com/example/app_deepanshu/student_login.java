@@ -11,6 +11,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ProgressBar;
 import android.widget.Spinner;
 import android.widget.Toast;
 
@@ -29,9 +30,7 @@ public class student_login extends AppCompatActivity implements View.OnClickList
 
     private FirebaseAuth mAuth;
 
-    //private EditText mTextAdhaar;
-    //private EditText mTextPassword;
-    // private Button mButtonLogin;
+    ProgressBar simpleProgressBar;
     private Button studentRegister;
     private Button studentlogin;
 
@@ -40,6 +39,7 @@ public class student_login extends AppCompatActivity implements View.OnClickList
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_student_login);
 
+        simpleProgressBar = (ProgressBar) findViewById(R.id.simpleProgressBar);
         aadhar = findViewById(R.id.edittext_adhaar);
         password = findViewById(R.id.edittext_password);
 
@@ -48,8 +48,6 @@ public class student_login extends AppCompatActivity implements View.OnClickList
         findViewById(R.id.button_register).setOnClickListener(this);
 
         findViewById(R.id.button_login).setOnClickListener(this);
-
-
     }
 
     private void student_login()
@@ -88,6 +86,7 @@ public class student_login extends AppCompatActivity implements View.OnClickList
                 if(task.isSuccessful()){
                     Intent intent = new Intent(student_login.this, student_grid.class);
                     intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    simpleProgressBar.setVisibility(View.VISIBLE);
                     startActivity(intent);
                 }
                 else{

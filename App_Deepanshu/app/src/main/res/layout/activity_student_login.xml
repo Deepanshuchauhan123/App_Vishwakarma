@@ -21,18 +21,36 @@
                 android:layout_height="127dp"
                 android:layout_marginTop="30dp"
                 app:srcCompat="@drawable/students"/>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:gravity="center"
+                app:passwordToggleEnabled="true"
+                android:layout_marginTop="20dp">
             <EditText
                 android:id="@+id/edittext_adhaar"
                 android:layout_width="350dp"
                 android:layout_height="55dp"
+                android:inputType="textWebEmailAddress"
                 android:paddingRight="10dp"
                 android:drawableLeft="@drawable/ic_perm_identity_black_24dp"
                 android:background="@drawable/button_shape"
                 android:layout_marginTop="40dp"
                 android:paddingLeft="10dp"
                 android:hint="आधार नंबर "/>
+            </com.google.android.material.textfield.TextInputLayout>
 
 
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:gravity="center"
+                app:passwordToggleEnabled="true"
+                android:layout_marginTop="20dp">
             <EditText
                 android:id="@+id/edittext_password"
                 android:layout_width="350dp"
@@ -40,9 +58,11 @@
                 android:background="@drawable/button_shape"
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
+                android:inputType="textWebPassword"
                 android:drawableLeft="@drawable/ic_lock_black_24dp"
                 android:layout_marginTop="20dp"
                 android:hint="पासवर्ड "/>
+            </com.google.android.material.textfield.TextInputLayout>
 
             <Button
                 android:id="@+id/button_login"
@@ -79,6 +99,12 @@
                 android:textStyle="bold"
                 android:layout_marginTop="5dp"
                 android:text="नामांकन "/>
+            <ProgressBar
+                android:id="@+id/simpleProgressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"
+                android:layout_centerHorizontal="true"/>
 
         </LinearLayout>
     </ScrollView>

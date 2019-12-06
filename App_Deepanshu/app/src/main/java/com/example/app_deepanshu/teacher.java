@@ -3,22 +3,22 @@ package com.example.app_deepanshu;
 public class teacher
     {
 
-        public String  email,sch_name,teach_name,teach_sub,teach_mobile,teach_area,teach_state;
+        public String  E_mail,School_name,Name,School_Verify_Key,Mobile,Address,State;
 
         public teacher()
         {
 
         }
 
-        public teacher(String email, String sch_name, String teach_name,
-                       String teach_sub, String teach_mobile, String teach_area, String teach_state)
+        public teacher(String E_mail, String School_name, String teach_name,
+                       String key, String teach_mobile, String teach_area, String teach_state)
         {
-            this.email = email;
-            this.sch_name = sch_name;
-            this.teach_name = teach_name;
-            this.teach_sub = teach_sub;
-            this.teach_mobile = teach_mobile;
-            this.teach_area = teach_area;
-            this.teach_state = teach_state;
+            this.E_mail = E_mail;
+            this.School_name = School_name;
+            this.Name = teach_name;
+            this.School_Verify_Key = key;
+            this.Mobile = teach_mobile;
+            this.Address = teach_area;
+            this.State = teach_state;
         }
     }

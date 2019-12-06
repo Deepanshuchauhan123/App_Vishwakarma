@@ -20,9 +20,7 @@ public class first_cat extends AppCompatActivity implements View.OnClickListener
 
      EditText aadhar, password;
     private FirebaseAuth mAuth;
-    private Button mButtonRegister;
     ProgressBar simpleProgressBar;
-    private Button edittext_password;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,7 +32,6 @@ public class first_cat extends AppCompatActivity implements View.OnClickListener
 
         aadhar = findViewById(R.id.edittext_adhaar);
         password = findViewById(R.id.edittext_password);
-
         mAuth = FirebaseAuth.getInstance();
 
         findViewById(R.id.button_register1).setOnClickListener(this);

@@ -50,20 +50,9 @@ public class teacher_reg extends AppCompatActivity implements View.OnClickListen
         findViewById(R.id.button_submit).setOnClickListener(this);
 
     }
-/*
-    @Override
-   protected void onStart() {
-        super.onStart();
 
-        if(mAuth.getCurrentUser() !=null){
-            //handle the already login user
-            Toast.makeText(getApplicationContext(), "Already have an Account", Toast.LENGTH_SHORT).show();
-
-        }
-    }*/
 
     private void teacher_signup(){
-//        String email,pass1,sch_name1,name1,sub1,mob1 ,area1 ,state1;
 
         String email= email1.getText().toString().trim();
         String pass1 = password.getText().toString().trim();
@@ -127,7 +116,6 @@ public class teacher_reg extends AppCompatActivity implements View.OnClickListen
             return;
         }
 
-        //for state
         if (state1.isEmpty()) {
             teach_state.setError("State is required");
             teach_state.requestFocus();
@@ -148,7 +136,7 @@ public class teacher_reg extends AppCompatActivity implements View.OnClickListen
                             teach_state.getText().toString()
 
                     );
-                    FirebaseDatabase.getInstance().getReference("teacher")
+                    FirebaseDatabase.getInstance().getReference("Teacher_portal")
                             .child(FirebaseAuth.getInstance().getCurrentUser().getUid())
                             .setValue(teach).addOnCompleteListener(new OnCompleteListener<Void>() {
                         @Override
